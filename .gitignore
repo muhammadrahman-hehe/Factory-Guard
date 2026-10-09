@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pt
+*.log
+outputs/
+server*.log
+validation/*.jpg
+validation/*.mp4
+validation/*.png
+validation/*.json
+outputs/
+models/*.pt
+models/*.part
+*.sqlite3
