@@ -12,3 +12,17 @@ outputs/
 models/*.pt
 models/*.part
 *.sqlite3
+
+.venv/
+my_videos/
+new_clip/
+train_clips/
+frames_out/
+new_frames/
+train_frames/
+outputs/
+factoryguard-*.zip
+factoryguard-test.v1i.yolov8/
+*.pt
+!models/ppe_full.pt
+.env

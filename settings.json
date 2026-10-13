@@ -1,11 +1,11 @@
 {
-  "confidence": 0.35,
-  "size": 640,
+  "confidence": 0.3,
+  "size": 960,
   "forklift": true,
   "ppe": true,
   "full_ppe": true,
-  "fire": true,
-  "fall": true,
+  "fire": false,
+  "fall": false,
   "fire_confidence": 0.6,
   "fall_confidence": 0.65,
   "hazard_persistence_seconds": 1.0,
@@ -14,12 +14,12 @@
   "calibration": null,
   "safe_distance_m": 2.0,
   "machines": [],
-  "forklift_confidence": 0.85,
-  "ppe_confidence": 0.6,
+  "forklift_confidence": 0.6,
+  "ppe_confidence": 0.3,
   "margin": 0.35,
   "gap": 1.5,
   "zone_enabled": false,
   "zone": [0.25, 0.3, 0.75, 0.95],
-  "samples_per_second": 2,
-  "max_seconds": 60
+  "samples_per_second": 10,
+  "max_seconds": 10
 }

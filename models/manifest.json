@@ -1,37 +1,36 @@
 {
-  "forklift": {
-    "repository": "keremberke/yolov8s-forklift-detection",
-    "revision": "e81851ddc16223eecaf6b127bf8d181d1d35e09c",
-    "url": "https://huggingface.co/keremberke/yolov8s-forklift-detection/resolve/e81851ddc16223eecaf6b127bf8d181d1d35e09c/best.pt",
-    "sha256": "30b6148f970cbe78b783dc6c65d9a8f2ef96298fc9d82909f2adf1c043ab4a95",
-    "license": "not specified; review upstream"
-  },
-  "ppe": {
-    "repository": "melihuzunoglu/ppe-detection",
-    "revision": "aed7807c358836eef5a6f67af27dd970ade6fb18",
-    "url": "https://huggingface.co/melihuzunoglu/ppe-detection/resolve/aed7807c358836eef5a6f67af27dd970ade6fb18/best.pt",
-    "sha256": "a00b6fce124e63c5d23f44792593983b70e646008b58bc54cf5b0a1c87ba2119",
-    "license": "agpl-3.0"
-  },
-  "ppe_full": {
-    "repository": "Hexmon/vyra-yolo-ppe-detection",
-    "revision": "08895b33d95d2587423ebe4f7c1b9c41beebd642",
-    "url": "https://huggingface.co/Hexmon/vyra-yolo-ppe-detection/resolve/08895b33d95d2587423ebe4f7c1b9c41beebd642/best.pt",
-    "sha256": "2b33d4d016f9751c5a25f4a72ce050e0a7e4e140b11c1669978d7154003a4f61",
-    "license": "cc-by-4.0"
-  },
-  "fire": {
-    "repository": "rabahdev/fire-smoke-yolov8n",
-    "revision": "13017fe8af477c25f5298d168e2dfede4b000753",
-    "url": "https://huggingface.co/rabahdev/fire-smoke-yolov8n/resolve/13017fe8af477c25f5298d168e2dfede4b000753/best.pt",
-    "sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f",
-    "license": "agpl-3.0"
-  },
-  "fall": {
-    "repository": "melihuzunoglu/human-fall-detection",
-    "revision": "97261b03632a9715a27481b2cfdac6a78e26d2d9",
-    "url": "https://huggingface.co/melihuzunoglu/human-fall-detection/resolve/97261b03632a9715a27481b2cfdac6a78e26d2d9/best.pt",
-    "sha256": "3f56ad30358d5c63bf8dbc0c1299cf68818c3d291dfb10c94107b94110aadd4c",
-    "license": "agpl-3.0"
-  }
+    "forklift": {
+        "repository": "keremberke/yolov8s-forklift-detection",
+        "revision": "e81851ddc16223eecaf6b127bf8d181d1d35e09c",
+        "url": "https://huggingface.co/keremberke/yolov8s-forklift-detection/resolve/e81851ddc16223eecaf6b127bf8d181d1d35e09c/best.pt",
+        "sha256": "30b6148f970cbe78b783dc6c65d9a8f2ef96298fc9d82909f2adf1c043ab4a95",
+        "license": "not specified; review upstream"
+    },
+    "ppe": {
+        "repository": "melihuzunoglu/ppe-detection",
+        "revision": "aed7807c358836eef5a6f67af27dd970ade6fb18",
+        "url": "https://huggingface.co/melihuzunoglu/ppe-detection/resolve/aed7807c358836eef5a6f67af27dd970ade6fb18/best.pt",
+        "sha256": "a00b6fce124e63c5d23f44792593983b70e646008b58bc54cf5b0a1c87ba2119",
+        "license": "agpl-3.0"
+    },
+    "ppe_full": {
+        "repository": "own fine-tune of YOLO26n",
+        "dataset": "odmodeling/construction-site-safety (Roboflow Universe, CC BY 4.0) + own labeled frames",
+	"sha256": "b64fa70f5b4e7d1cb803799656b97f17e66031122845b5328ae78171b6814c42",
+        "license": "AGPL-3.0 (Ultralytics)"
+    },
+    "fire": {
+        "repository": "rabahdev/fire-smoke-yolov8n",
+        "revision": "13017fe8af477c25f5298d168e2dfede4b000753",
+        "url": "https://huggingface.co/rabahdev/fire-smoke-yolov8n/resolve/13017fe8af477c25f5298d168e2dfede4b000753/best.pt",
+        "sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f",
+        "license": "agpl-3.0"
+    },
+    "fall": {
+        "repository": "melihuzunoglu/human-fall-detection",
+        "revision": "97261b03632a9715a27481b2cfdac6a78e26d2d9",
+        "url": "https://huggingface.co/melihuzunoglu/human-fall-detection/resolve/97261b03632a9715a27481b2cfdac6a78e26d2d9/best.pt",
+        "sha256": "3f56ad30358d5c63bf8dbc0c1299cf68818c3d291dfb10c94107b94110aadd4c",
+        "license": "agpl-3.0"
+    }
 }

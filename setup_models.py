@@ -6,7 +6,6 @@ import requests
 
 ROOT = Path(__file__).resolve().parent
 REPOS = {'forklift': 'keremberke/yolov8s-forklift-detection', 'ppe': 'melihuzunoglu/ppe-detection',
-         'ppe_full': 'Hexmon/vyra-yolo-ppe-detection',
          'fire': 'rabahdev/fire-smoke-yolov8n', 'fall': 'melihuzunoglu/human-fall-detection'}
 
 
